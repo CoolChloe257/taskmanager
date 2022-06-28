@@ -1,0 +1,74 @@
+/*
+Examples of CSS you might add to a selector
+
+margin: 10px;
+padding: 10px;
+background-color: #0000FF;
+color: red;
+width: 100%;
+font-size: 12px;
+*/
+
+body {
+	background: #ffffff;
+	text-align: left;
+	font-family: serif;
+	font-size: 16px;
+}
+
+.row {}
+
+h1 {}
+
+.border1 {}
+
+p {}
+
+.helpText {}
+
+#first {}
+
+#second {}
+
+#third {}
+
+#enter {}
+
+#enter:hover{}
+
+/* This UL code is great. No need to change it. */
+ul {
+	text-align: left;
+	margin-top: 20px;
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+	/* Add your styling properties under here. */
+	
+}
+
+li:hover {
+	cursor: pointer;
+	/* Add your styling properties under here. */
+	
+}
+
+li > button {
+	float: right;
+	cursor: pointer;
+	/* Add your styling properties under here. */
+	
+}
+
+li > button:hover {}
+
+input {}
+
+.done, .done:hover {}
+
+/* Don't change the following code! */
+.delete {
+	display: none;
+}
